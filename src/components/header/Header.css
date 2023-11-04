@@ -1,0 +1,36 @@
+.header{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid orange;
+    padding: 10px 0;
+}
+
+.header>div{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.header>div>a{
+    text-decoration: none;
+    padding: 7px;
+    border: 1px solid orange;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: orange;
+    gap: 5px;
+}
+
+.header>div>a:focus{
+    background-color: orange;
+    color: #fff;
+    box-shadow: 0 0 5px orange;
+}
